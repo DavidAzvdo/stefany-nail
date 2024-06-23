@@ -6,7 +6,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    overflow: hidden;
+ 
 }
 .container {
     display: flex;
@@ -14,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #ecf0f1;
-    overflow: hidden;
+ 
 }
 .content {
     background-color: #fff;
@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    overflow: hidden;
+ 
 }
 .content::before {
     content: "";
@@ -34,8 +34,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 
