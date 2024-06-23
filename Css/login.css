@@ -373,11 +373,12 @@ input:-webkit-autofill
     .content {
         width: 80%;
         height: 90%;
+        margin: 0;
+        padding: 0;
     }
 
     .logo{
-    width: 110px;
-    margin-left: 10px;
+    width: 180px;
     }
 
     .content::before {
@@ -524,7 +525,7 @@ input:-webkit-autofill
 @media screen and (max-width: 740px) {
 
        .logo{
-        width: 100px;
+        width: 150px;
        }
 
     .form {
