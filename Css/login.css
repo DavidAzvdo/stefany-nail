@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 .container {
     display: flex;
@@ -13,6 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #ecf0f1;
+    overflow: hidden;
 }
 .content {
     background-color: #fff;
@@ -22,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
+    overflow: hidden;
 }
 .content::before {
     content: "";
@@ -39,6 +41,7 @@ body {
 
 .logo{
     width: 250px;
+    
 }
 
 .title {
@@ -105,6 +108,7 @@ body {
     z-index: 11;
 }
 .first-column {
+    align-items: center;
     text-align: center;
     width: 40%;
     z-index: 10;
@@ -192,10 +196,12 @@ input:-webkit-autofill
     font-size: 14px;
     margin: 15px 0;
     text-align: center;
+    text-decoration: none;
 }
 .password::first-letter {
     text-transform: capitalize;
 }
+
 
 
 
@@ -378,7 +384,7 @@ input:-webkit-autofill
     }
 
     .logo{
-    width: 180px;
+    width: 160px;
     }
 
     .content::before {
@@ -525,7 +531,7 @@ input:-webkit-autofill
 @media screen and (max-width: 740px) {
 
        .logo{
-        width: 150px;
+        width: 140px;
        }
 
     .form {
